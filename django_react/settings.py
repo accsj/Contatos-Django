@@ -17,9 +17,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-j4#1c3uneerg4sr7*r(0#%(m^ojue3uc$hkag6nry=9asob--r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'https://agenda-de-contatos-coral.vercel.app/'
+]
 
 
 # Application definition
